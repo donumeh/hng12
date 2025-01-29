@@ -7,20 +7,21 @@ This repo holds stage zero task of HNG Internship programme
 
 Develop a public API that returns the following information in JSON format:
 
-	* **Your registered email address** (used to register on the HNG12 slack workspace)
-	* **The current datetime** as an ISO 8601 formatted timestamp
-	* **This GitHub URL** of the project's codebase
+* **Your registered email address** (used to register on the HNG12 slack workspace)
+* **The current datetime** as an ISO 8601 formatted timestamp
+* **This GitHub URL** of the project's codebase
 
 ## Requirement (used):
-	* **Programming Language/Framework**: Python (Flask)
-	* **Deployment**: On that train of thought
-	* **CORS Handling**: flask_cors
-	* **Response Format**: JSON format
+
+* **Programming Language/Framework**: Python (Flask)
+* **Deployment**: On that train of thought
+* **CORS Handling**: flask_cors
+* **Response Format**: JSON format
 
 
 ## API specification
-	* Endpoint `GET** <your-url>`
-	* Required JSON Response Format (200 OK)
+* **Endpoint** `GET** <your-url>`
+* **Required JSON Response Format**: (200 OK)
 
 	```
 		{
