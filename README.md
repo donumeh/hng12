@@ -14,7 +14,7 @@ Develop a public API that returns the following information in JSON format:
 ## Requirement (used):
 
 * **Programming Language/Framework**: Python (Flask)
-* **Deployment**: On that train of thought
+* **Deployment**: Render
 * **CORS Handling**: flask_cors
 * **Response Format**: JSON format
 
