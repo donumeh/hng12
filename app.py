@@ -21,7 +21,7 @@ CORS(app)
 def details():
     details = {
         "email": "donumeh54@gmail.com",
-        "current_datetime": datetime.now().isoformat(timespec="seconds"),
+        "current_datetime": datetime.now().isoformat(timespec="seconds") + "Z",
         "github_url": "https://github.com/donumeh/stage_zero",
     }
     response = Response(
