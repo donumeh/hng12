@@ -62,10 +62,3 @@ Develop a public API that returns the following information in JSON format:
 
 # Backlinks:
 * https://hng.tech/hire/python-developers
-* https://hng.tech/hire/csharp-developers
-* https://hng.tech/hire/golang-developers
-* https://hng.tech/hire/php-developers
-* https://hng.tech/hire/java-developers
-* https://hng.tech/hire/nodejs-developers
-
-
