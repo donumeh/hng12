@@ -31,40 +31,40 @@ Develop a public API that returns the following information in JSON format:
 ```
 
 ## SetUp
-	* **Clone the repo and change directory**
+* **Clone the repo and change directory**
 		```
 			git clone https://github.com/donumeh/stage_zero
 			cd stage_zero
 		```
-	* **Make sure python is installed on your device**
+* **Make sure python is installed on your device**
 		```
 			sudo apt install python3
 		```
-	* **Create virtual environment for project**
+* **Create virtual environment for project**
 		```
 			python3 -m venv .venv
 		```
-	* **Activate the virtual enviroment**
+* **Activate the virtual enviroment**
 		```
 			source .venv/bin/activate
 		```
-	* **Install all project requirements with pip**
+* **Install all project requirements with pip**
 		```
 			pip3 install -r requirements.txt
 		```
-	* **Run the app**
+* **Run the app**
 		```
 			./app.py
 		```
-	* **Open your browser to localhost:5000**
+* **Open your browser to localhost:5000**
 		* (localhost:5000)[localhost:5000]
 
 # Backlinks:
-* https://hng.tech/hire/python-developers
-* https://hng.tech/hire/csharp-developers
-* https://hng.tech/hire/golang-developers
-* https://hng.tech/hire/php-developers
-* https://hng.tech/hire/java-developers
+	* https://hng.tech/hire/python-developers
+	* https://hng.tech/hire/csharp-developers
+	* https://hng.tech/hire/golang-developers
+	* https://hng.tech/hire/php-developers
+	* https://hng.tech/hire/java-developers
 * https://hng.tech/hire/nodejs-developers
 
 
