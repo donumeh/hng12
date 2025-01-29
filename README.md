@@ -20,15 +20,16 @@ Develop a public API that returns the following information in JSON format:
 
 
 ## API specification
-* **Endpoint** `GET** <your-url>`
-* **Required JSON Response Format**: (200 OK)
-```
-	{
-		 "email": "your-email@example.com",
-		 "current_datetime": "2025-01-30T09:30:00Z",
-		 "github_url": "<https://github.com/yourusername/your-repo>"
-	}
-```
+* Endpoint `GET** https://stage-zero.onrender.com`
+* Required JSON Response Format (200 OK)
+
+	```
+		{
+ 			 "email": "your-email@example.com",
+			 "current_datetime": "2025-01-30T09:30:00Z",
+			 "github_url": "<https://github.com/yourusername/your-repo>"
+		}
+	```
 
 ## SetUp
 * **Clone the repo and change directory**
