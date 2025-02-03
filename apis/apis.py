@@ -45,7 +45,8 @@ def classify_number() -> flask.wrappers.Response:
     classify_number: returns properties of a particular number
     """
     try:
-        number: int = int(request.args.get("number"))
+        number: str = request.args.get("number")
+        number = int(number)
         assert (isinstance(number, int) or isinstance(number, float))
         fact = request_math(number).get("text")
         if number < 0:
@@ -65,7 +66,7 @@ def classify_number() -> flask.wrappers.Response:
         )
     except Exception as e:
         error_output: Dict[str, Union[str, bool]] = {
-            "number": str(number),
+            "number": number,
             "error": True,
         }
         print(e)
