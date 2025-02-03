@@ -20,7 +20,7 @@ Develop a public API that returns the following information in JSON format:
 
 
 ## API specification
-* Endpoint `GET** https://stage-zero.onrender.com`
+* Endpoint `GET** https://hng12-wkcn.onrender.com`
 * Required JSON Response Format (200 OK)
 
 	```
@@ -30,6 +30,26 @@ Develop a public API that returns the following information in JSON format:
 			 "github_url": "<https://github.com/yourusername/your-repo>"
 		}
 	```
+
+ * Endpoint `GET https://hng12-wkcn.onrender.com/api/classify-number?number=371`
+ * Required JSON Response Format (200 OK)
+   	```
+    		{
+		    "number": 371,
+		    "is_prime": false,
+		    "is_perfect": false,
+		    "properties": ["armstrong", "odd"],
+		    "digit_sum": 11,  // sum of its digits
+		    "fun_fact": "371 is an Armstrong number because 3^3 + 7^3 + 1^3 = 371" //gotten from the numbers API
+		}
+    	```
+*  Required JSON Response Format(400 Bad Request)
+  	```
+   	{
+	    "number": "alphabet",
+	    "error": true
+	}
+   	```
 
 ## SetUp
 * **Clone the repo and change directory**
