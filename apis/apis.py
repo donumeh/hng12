@@ -61,7 +61,7 @@ def classify_number() -> flask.wrappers.Response:
         )
     except Exception as e:
         error_output: Dict[str, Union[str, bool]] = {
-            "number": "alphabet",
+            "number": str(number),
             "error": True,
         }
         print(e)
