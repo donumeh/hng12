@@ -46,14 +46,18 @@ def classify_number() -> flask.wrappers.Response:
     """
     try:
         number: int = int(request.args.get("number"))
-        assert isinstance(number, int)
+        assert (isinstance(number, int) or isinstance(number, float))
         fact = request_math(number).get("text")
+        if number < 0:
+            num = (-1 * number)
+        else:
+            num = number
         details: Dict[str, Union[int, str]] = {
             "number": number,
-            "is_prime": is_prime(number),
-            "is_perfect": is_perfect(number),
-			"properties": check_property(number),
-            "digit_sum": sum_of_digit(number),
+            "is_prime": is_prime(num),
+            "is_perfect": is_perfect(num),
+            "properties": check_property(num),
+            "digit_sum": sum_of_digit(num),
             "fun_fact": fact,
         }
         return Response(
